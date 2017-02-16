@@ -1,0 +1,23 @@
+Id,Designator,Package,Quantity,Designation,Supplier and ref
+1,C1,C_0805,1,1.0μF,mouser
+2,C2,C_0805,1,2.2μF,mouser
+3,"C3,C4,C5,C6,C7,C8,C10,C11",C_0805,8,0.1μF,stock
+4,"C9,C12",C_0805,2,1μF,mouser
+5,D1,D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp,1,1N5819,stock
+6,"D2,D3",D_SOD-323,2,CZRF52C5V6,mouser
+7,J1,TerminalBlock_Pheonix_MPT-2.54mm_2pol,1,5-20 V⎓,mouser
+8,P1,Amphenol-12401548E4#2A,1,12401548E4#2A,mouser
+9,P2,Pin_Header_Straight_2x05_Pitch1.27mm_SMD,1,SWD,mouser
+10,Q1,SOT-23,1,MMBT2222ALT1G,mouser
+11,Q2,SOIC-8_3.9x4.9mm_Pitch1.27mm,1,DMP4015SSS,mouser
+12,"R1,R3,R4,R8",R_0805,4,2kΩ,stock
+13,"R2,R5,R6,R7",R_0805,4,10kΩ,stock
+14,R9,R_0805,1,4.7kΩ,stock
+15,SW1,SW_SPDT_PCM12,1,BOOT,mouser
+16,SW2,SW_SPST_SKQG,1,Setup,stock
+17,U1,SOT89-3_Housing,1,AP2204R-3.3TRG1,mouser
+18,U2,LQFP-48_7x7mm_Pitch0.5mm,1,STM32F072CBTx,mouser
+19,U3,MLP-14,1,FUSB302B,mouser
+20,R10,R_0805,1,300Ω,mouser
+21,D4,LED_0805,1,NOPWR,mouser
+22,"MK1,MK2",MountingHole_3.5mm_Pad_Via,2,3.5mm,n/a
