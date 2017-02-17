@@ -93,7 +93,7 @@ encoding utf-8
 Sheet 2 6
 Title "PD Buddy"
 Date ""
-Rev "0.1"
+Rev "0.2"
 Comp ""
 Comment1 ""
 Comment2 ""

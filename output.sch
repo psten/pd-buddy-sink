@@ -93,7 +93,7 @@ encoding utf-8
 Sheet 4 6
 Title "PD Buddy"
 Date ""
-Rev "0.1"
+Rev "0.2"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -109,7 +109,7 @@ F 1 "DMP4015SSS" H 6600 3500 50  0000 L CNN
 F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 6600 3650 50  0001 C CNN
 F 3 "http://www.diodes.com/_files/datasheets/DMP4015SSS.pdf" H 6600 3600 50  0001 C CNN
 	1    6400 3550
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L PZT2222A Q1
