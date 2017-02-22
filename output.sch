@@ -112,7 +112,7 @@ F 3 "http://www.diodes.com/_files/datasheets/DMP4015SSS.pdf" H 6600 3600 50  000
 	1    0    0    1   
 $EndComp
 $Comp
-L PZT2222A Q1
+L MMBT2222AL Q1
 U 1 1 588FA577
 P 5450 4050
 F 0 "Q1" H 5650 4125 50  0000 L CNN

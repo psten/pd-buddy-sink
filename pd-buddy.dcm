@@ -30,6 +30,12 @@ D Fairchild USB Interface IC 302B Type-C Control IC with PD
 K USB PD PHY
 $ENDCMP
 #
+$CMP MMBT2222AL
+D 40V Vce, 1A Ic, NPN, General Purpose Transistor, SOT-223
+K NPN General Puprose Transistor SMD
+F http://www.onsemi.com/pub_link/Collateral/MMBT2222LT1-D.PDF
+$ENDCMP
+#
 $CMP VBUS
 K POWER, PWR
 $ENDCMP
