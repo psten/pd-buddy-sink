@@ -117,7 +117,7 @@ F0 "Microcontroller" 60
 F1 "microcontroller.sch" 60
 F2 "SCL" O R 6000 4100 60 
 F3 "SDA" B R 6000 4200 60 
-F4 "INT_N" B R 6000 4000 60 
+F4 "INT_N" I R 6000 4000 60 
 F5 "OUT_CTRL" O R 6000 4400 60 
 F6 "D+" B L 4700 4000 60 
 F7 "D-" B L 4700 4100 60 

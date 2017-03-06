@@ -306,7 +306,7 @@ Text HLabel 1000 3900 0    60   Output ~ 0
 SCL
 Text HLabel 1000 4000 0    60   BiDi ~ 0
 SDA
-Text HLabel 1000 4100 0    60   BiDi ~ 0
+Text HLabel 1000 4100 0    60   Input ~ 0
 INT_N
 $Comp
 L R R4
