@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.5)
+(kicad_pcb (version 4) (host pcbnew 4.0.6)
 
   (general
     (links 121)
     (no_connects 0)
-    (area 79.065 55.414999 131.000001 84.279048)
+    (area 81.424999 56.924999 130.075001 83.075001)
     (thickness 1.6)
     (drawings 10)
     (tracks 392)
@@ -14,7 +14,7 @@
 
   (page USLetter)
   (title_block
-    (title "PD Buddy")
+    (title "PD Buddy Sink")
     (rev 0.2)
   )
 
@@ -1827,7 +1827,7 @@
     (pad "" thru_hole circle (at 1.856155 -1.856155 90) (size 0.6 0.6) (drill 0.5) (layers *.Cu *.Mask))
   )
 
-  (gr_text "PD Buddy\nv0.2" (at 105.5 61) (layer B.Mask)
+  (gr_text "PD Buddy Sink\nv0.2" (at 107 61) (layer B.Mask)
     (effects (font (size 2 2) (thickness 0.4)) (justify mirror))
   )
   (gr_text ⏚ (at 129 73.5 90) (layer F.SilkS)

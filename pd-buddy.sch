@@ -91,7 +91,7 @@ EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 6
-Title "PD Buddy"
+Title "PD Buddy Sink"
 Date ""
 Rev "0.2"
 Comp ""
