@@ -1,4 +1,4 @@
-# pd-buddy-pcb
+# PD Buddy Sink
 
 This is the circuit board for the PD Buddy Sink, a device which aims to make
 USB Power Delivery accessible to any electronics hobbyist.
