@@ -131,7 +131,7 @@ F 1 "5-20 V⎓" V 6850 4050 50  0000 C TNN
 F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_2pol" H 7000 3825 50  0001 C CNN
 F 3 "" H 6975 4050 50  0001 C CNN
 	1    7000 4050
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 Text HLabel 4650 4050 0    60   Input ~ 0
 OUT_CTRL
@@ -268,4 +268,6 @@ F 3 "" H 4750 4550 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	4750 4550 4750 4450
+Text Label 6500 3850 0    60   ~ 0
+OUT
 $EndSCHEMATC
