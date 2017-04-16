@@ -712,4 +712,6 @@ F 3 "" H 1100 2300 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	1100 2200 1100 2300
+Text Label 1800 1800 0    60   ~ 0
+BOOT
 $EndSCHEMATC
