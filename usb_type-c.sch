@@ -100,19 +100,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L 12401548E4#2A P1
-U 1 1 588FA6A2
-P 4100 2350
-AR Path="/588FA6A2" Ref="P1"  Part="1" 
-AR Path="/588FA5F7/588FA6A2" Ref="P1"  Part="1" 
-F 0 "P1" H 4400 1600 60  0000 C CNN
-F 1 "12401548E4#2A" H 4100 3000 60  0000 C CNN
-F 2 "pd-buddy:Amphenol-12401548E4#2A" H 4100 2350 60  0001 C CNN
-F 3 "https://www.amphenolcanada.com/StockAvailabilityPrice.aspx?From=&PartNum=12401548E4%7e2A" H 4400 1600 60  0001 C CNN
-	1    4100 2350
-	1    0    0    -1  
-$EndComp
 NoConn ~ 4700 1950
 NoConn ~ 4700 2050
 NoConn ~ 3500 1950
@@ -235,6 +222,17 @@ F 1 "PWR_FLAG" H 4900 1730 50  0000 C CNN
 F 2 "" H 4900 1550 50  0000 C CNN
 F 3 "" H 4900 1550 50  0000 C CNN
 	1    4900 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 12401610E4#2A P1
+U 1 1 58F76BCA
+P 4100 2350
+F 0 "P1" H 4400 1600 60  0000 C CNN
+F 1 "12401610E4#2A" H 4100 3000 60  0000 C CNN
+F 2 "pd-buddy:Amphenol-12401610E4#2A" H 4100 2350 60  0001 C CNN
+F 3 "https://www.amphenolcanada.com/StockAvailabilityPrice.aspx?From=&PartNum=12401610E4%7e2A" H 4400 1600 60  0001 C CNN
+	1    4100 2350
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

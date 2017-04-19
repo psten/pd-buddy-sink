@@ -17,13 +17,13 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# 12401548E4#2A
+# 12401610E4#2A
 #
-DEF 12401548E4#2A P 0 40 Y Y 1 F N
+DEF 12401610E4#2A P 0 40 Y Y 1 F N
 F0 "P" 300 -750 60 H V C CNN
-F1 "12401548E4#2A" 0 650 60 H V C CNN
+F1 "12401610E4#2A" 0 650 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
-F3 "https://www.amphenolcanada.com/StockAvailabilityPrice.aspx?From=&PartNum=12401548E4%7e2A" 300 -750 60 H I C CNN
+F3 "https://www.amphenolcanada.com/StockAvailabilityPrice.aspx?From=&PartNum=12401610E4%7e2A" 300 -750 60 H I C CNN
 DRAW
 S 400 600 -400 -700 0 1 0 f
 X GND A1 600 500 200 L 50 50 1 1 W
