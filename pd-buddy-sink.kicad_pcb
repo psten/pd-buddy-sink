@@ -3,7 +3,7 @@
   (general
     (links 120)
     (no_connects 0)
-    (area 81.424999 56.924999 129.575001 83.075001)
+    (area 78.565 52.89 131.500001 84.500001)
     (thickness 1.6)
     (drawings 10)
     (tracks 449)
@@ -15,7 +15,7 @@
   (page USLetter)
   (title_block
     (title "PD Buddy Sink")
-    (rev 0.2)
+    (rev 0.3)
   )
 
   (layers
