@@ -1901,7 +1901,7 @@
     (pad "" smd rect (at -3.65 -0.78 180) (size 1 0.8) (layers F.Cu F.Mask))
   )
 
-  (gr_text "PD Buddy Sink\nv0.2" (at 107 61) (layer B.Mask)
+  (gr_text "PD Buddy Sink\nv0.3" (at 107 61) (layer B.Mask)
     (effects (font (size 2 2) (thickness 0.4)) (justify mirror))
   )
   (gr_text ⏚ (at 128.5 66.5) (layer F.SilkS)
