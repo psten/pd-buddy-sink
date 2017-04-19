@@ -1,6 +1,5 @@
 (module SW_SPDT_PCM12_NOPASTE (layer F.Cu) (tedit 58E6BF64)
   (descr "Ultraminiature Surface Mount Slide Switch")
-  (attr smd)
   (fp_text reference REF** (at 0 -3.2) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
