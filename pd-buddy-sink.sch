@@ -187,8 +187,8 @@ L Mounting_Hole_PAD MK1
 U 1 1 5892BB4F
 P 4050 5700
 F 0 "MK1" H 4050 5950 50  0000 C CNN
-F 1 "3.5mm" H 4050 5875 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3.5mm_Pad_Via" H 4050 5700 60  0001 C CNN
+F 1 "M3" H 4050 5875 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 4050 5700 60  0001 C CNN
 F 3 "" H 4050 5700 60  0001 C CNN
 	1    4050 5700
 	1    0    0    -1  
@@ -198,8 +198,8 @@ L Mounting_Hole_PAD MK2
 U 1 1 5892BC07
 P 4350 5700
 F 0 "MK2" H 4350 5950 50  0000 C CNN
-F 1 "3.5mm" H 4350 5875 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3.5mm_Pad_Via" H 4350 5700 60  0001 C CNN
+F 1 "M3" H 4350 5875 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 4350 5700 60  0001 C CNN
 F 3 "" H 4350 5700 60  0001 C CNN
 	1    4350 5700
 	1    0    0    -1  
