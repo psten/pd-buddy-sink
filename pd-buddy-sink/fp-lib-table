@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name pd-buddy)(type KiCad)(uri ${KIPRJMOD}/../pd-buddy.pretty)(options "")(descr ""))
+)
