@@ -1,14 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 12401548E4#2A
-D Amphenol USB TYPE-C, RA RCPT, PCB MOUNT
-K USB, Type-C, Connector
-$ENDCMP
-#
-$CMP 12401610E4#2A
-D USB TYPE C, RA RCPT PCB, SMT
-$ENDCMP
-#
 $CMP AP2204R-3.3TRG1
 D Diodes Incorporated LDO Voltage Regulators 150mA CMOS LDO 3.3V
 K regulator LDO 3.3V
