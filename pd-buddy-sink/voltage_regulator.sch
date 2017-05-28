@@ -173,17 +173,6 @@ F 3 "" H 5450 3500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AP2204R-3.3TRG1 U1
-U 1 1 588FA408
-P 6050 3500
-F 0 "U1" H 6250 3200 60  0000 C CNN
-F 1 "AP2204R-3.3TRG1" H 6050 3700 60  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT89-3_Housing" H 6150 3100 60  0001 C CNN
-F 3 "http://www.diodes.com/_files/datasheets/AP2204.pdf" H 6250 3200 60  0001 C CNN
-	1    6050 3500
-	1    0    0    -1  
-$EndComp
-$Comp
 L VBUS #PWR06
 U 1 1 58FBCEC4
 P 4500 3500
@@ -235,4 +224,15 @@ Wire Wire Line
 	4600 3800 4500 3800
 Wire Wire Line
 	4500 3800 4500 3900
+$Comp
+L AP2204R-3.3TRG1 U1
+U 1 1 592B31D5
+P 6050 3500
+F 0 "U1" H 6250 3200 60  0000 C CNN
+F 1 "AP2204R-3.3TRG1" H 6050 3700 60  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-89-3" H 6150 3100 60  0001 C CNN
+F 3 "http://www.diodes.com/_files/datasheets/AP2204.pdf" H 6250 3200 60  0001 C CNN
+	1    6050 3500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

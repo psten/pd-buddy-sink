@@ -29,11 +29,6 @@ D Diodes Incorporated MOSFET BVDSS: 41V-60 1V-60V SO-8 T&R 2.5K
 K pmos p-mos p-mosfet transistor
 $ENDCMP
 #
-$CMP FUSB302B
-D Fairchild USB Interface IC 302B Type-C Control IC with PD
-K USB PD PHY
-$ENDCMP
-#
 $CMP MMBT2222AL
 D 40V Vce, 1A Ic, NPN, General Purpose Transistor, SOT-223
 K NPN General Puprose Transistor SMD
