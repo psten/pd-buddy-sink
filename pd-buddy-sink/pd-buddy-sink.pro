@@ -1,4 +1,4 @@
-update=Sat 13 May 2017 05:53:10 PM EDT
+update=Sun 28 May 2017 03:55:24 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -115,4 +115,4 @@ LibName82=Worldsemi
 LibName83=Xicor
 LibName84=zetex
 LibName85=Zilog
-LibName86=pd-buddy
+LibName86=../pd-buddy
