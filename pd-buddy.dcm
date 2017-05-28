@@ -26,8 +26,4 @@ K NPN General Puprose Transistor SMD
 F http://www.onsemi.com/pub_link/Collateral/MMBT2222LT1-D.PDF
 $ENDCMP
 #
-$CMP VBUS
-K POWER, PWR
-$ENDCMP
-#
 #End Doc Library
