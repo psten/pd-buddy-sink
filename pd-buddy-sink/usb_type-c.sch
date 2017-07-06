@@ -93,7 +93,7 @@ encoding utf-8
 Sheet 6 6
 Title "PD Buddy Sink"
 Date ""
-Rev "0.3"
+Rev "1.0"
 Comp ""
 Comment1 ""
 Comment2 ""

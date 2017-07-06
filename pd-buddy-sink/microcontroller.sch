@@ -93,7 +93,7 @@ encoding utf-8
 Sheet 3 6
 Title "PD Buddy Sink"
 Date ""
-Rev "0.3"
+Rev "1.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -360,7 +360,7 @@ U 1 1 589273B4
 P 6800 5850
 F 0 "SW2" H 6850 5950 50  0000 L CNN
 F 1 "Setup" H 6800 5790 50  0000 C CNN
-F 2 "Buttons_Switches_SMD:SW_SPST_SKQG" H 6800 6050 50  0001 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_PTS810" H 6800 6050 50  0001 C CNN
 F 3 "" H 6800 6050 50  0000 C CNN
 	1    6800 5850
 	0    1    1    0   
