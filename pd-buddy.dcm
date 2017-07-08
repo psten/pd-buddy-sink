@@ -1,15 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP AP2204R-3.3TRG1
-D Diodes Incorporated LDO Voltage Regulators 150mA CMOS LDO 3.3V
-K regulator LDO 3.3V
-$ENDCMP
-#
-$CMP AP2204RA-3.3TRG1
-D Diodes Incorporated LDO Voltage Regulators 150mA CMOS LDO 3.3V
-K regulator LDO 3.3V
-$ENDCMP
-#
 $CMP BUK9Y107-80E
 D NXP MOSFET N-channel 80 V 107 mo
 K NMOS n-mos n-mosfet transistor
