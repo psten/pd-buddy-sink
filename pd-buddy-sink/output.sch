@@ -101,17 +101,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L DMP4015SSS Q2
-U 1 1 588FA570
-P 6400 3550
-F 0 "Q2" H 6600 3600 50  0000 L CNN
-F 1 "DMP4015SSS" H 6600 3500 50  0000 L CNN
-F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 6600 3650 50  0001 C CNN
-F 3 "http://www.diodes.com/_files/datasheets/DMP4015SSS.pdf" H 6600 3600 50  0001 C CNN
-	1    6400 3550
-	1    0    0    1   
-$EndComp
-$Comp
 L Screw_Terminal_1x02 J1
 U 1 1 588FA688
 P 7000 4050
@@ -157,9 +146,9 @@ L D_Schottky D1
 U 1 1 58925D4E
 P 6500 4050
 F 0 "D1" H 6500 4150 50  0000 C CNN
-F 1 "SS14FL" H 6500 3950 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-123F" H 6500 4050 50  0001 C CNN
-F 3 "https://www.fairchildsemi.com/datasheets/SS/SS14FL.pdf" H 6500 4050 50  0001 C CNN
+F 1 "B140" H 6500 3950 50  0000 C CNN
+F 2 "Diodes_SMD:D_SMA" H 6500 4050 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds13002.pdf" H 6500 4050 50  0001 C CNN
 	1    6500 4050
 	0    1    1    0   
 $EndComp
@@ -269,5 +258,16 @@ F 2 "TO_SOT_Packages_SMD:SOT-23" H 5650 3975 50  0001 L CIN
 F 3 "" H 5450 4050 50  0001 L CNN
 	1    5450 4050
 	1    0    0    -1  
+$EndComp
+$Comp
+L DMP3017SFG Q2
+U 1 1 596D6EFB
+P 6400 3550
+F 0 "Q2" H 6600 3600 50  0000 L CNN
+F 1 "DMP3017SFG" H 6600 3500 50  0000 L CNN
+F 2 "Housings_SON:Diodes_PowerDI3333-8" H 6600 3650 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/DMP3017SFG.pdf" H 6600 3600 50  0001 C CNN
+	1    6400 3550
+	1    0    0    1   
 $EndComp
 $EndSCHEMATC

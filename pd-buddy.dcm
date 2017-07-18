@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP DMP3017SFG
+D Diodes Incorporated MOSFET BVDSS: 30V PowerDI3333-8
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
 $CMP DMP4015SSS
 D Diodes Incorporated MOSFET BVDSS: 41V-60 1V-60V SO-8 T&R 2.5K
 K pmos p-mos p-mosfet transistor
