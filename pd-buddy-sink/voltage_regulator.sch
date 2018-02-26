@@ -172,7 +172,7 @@ F 3 "" H 4500 3900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP1
+L Test_Point TP1
 U 1 1 58FBCF4C
 P 4600 3600
 F 0 "TP1" H 4600 3900 50  0000 C BNN
@@ -183,7 +183,7 @@ F 3 "" H 4600 3600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TEST TP2
+L Test_Point TP2
 U 1 1 58FBD023
 P 4600 3800
 F 0 "TP2" H 4600 4100 50  0000 C BNN
