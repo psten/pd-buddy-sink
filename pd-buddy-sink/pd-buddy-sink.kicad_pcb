@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.6)
+(kicad_pcb (version 4) (host pcbnew 4.0.7)
 
   (general
     (links 142)
     (no_connects 0)
-    (area 62.224999 57.424999 111.575001 82.575001)
+    (area 81.424999 57.424999 111.575001 82.575001)
     (thickness 1.6)
     (drawings 30)
     (tracks 535)
@@ -15,7 +15,7 @@
   (page USLetter)
   (title_block
     (title "PD Buddy Sink")
-    (rev 1.0)
+    (rev next)
   )
 
   (layers
@@ -2093,7 +2093,7 @@
   (gr_line (start 83.1 74.24) (end 82.5 74.24) (layer Edge.Cuts) (width 0.05))
   (gr_arc (start 83.1 74.49) (end 83.1 74.24) (angle 180) (layer Edge.Cuts) (width 0.05) (tstamp 593AE89F))
   (gr_arc (start 82.5 74.49) (end 82.5 74.74) (angle 180) (layer Edge.Cuts) (width 0.05))
-  (gr_text "PD Buddy\nSink v1.0\n" (at 110.75 80.5) (layer B.Mask)
+  (gr_text "PD Buddy\nSink next\n" (at 110.75 80.5) (layer B.Mask)
     (effects (font (size 0.8 0.8) (thickness 0.16)) (justify left mirror))
   )
   (gr_text GND⏚ (at 109.25 66.5) (layer F.SilkS)

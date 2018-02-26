@@ -44,11 +44,9 @@ LIBS:elec-unifil
 LIBS:ESD_Protection
 LIBS:ftdi
 LIBS:gennum
-LIBS:graphic
 LIBS:hc11
 LIBS:ir
 LIBS:Lattice
-LIBS:logo
 LIBS:maxim
 LIBS:mechanical
 LIBS:microchip_dspic33dsc
@@ -85,6 +83,7 @@ LIBS:Xicor
 LIBS:zetex
 LIBS:Zilog
 LIBS:pd-buddy
+LIBS:graphic_symbols
 LIBS:pd-buddy-sink-cache
 EELAYER 25 0
 EELAYER END
@@ -93,7 +92,7 @@ encoding utf-8
 Sheet 4 6
 Title "PD Buddy Sink"
 Date ""
-Rev "1.0"
+Rev "next"
 Comp ""
 Comment1 ""
 Comment2 ""
