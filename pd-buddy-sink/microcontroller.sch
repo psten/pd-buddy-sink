@@ -612,7 +612,7 @@ U 1 1 5ADE4A0A
 P 5900 3300
 F 0 "U2" H 5350 4750 50  0000 C CNN
 F 1 "STM32F072C8Ux" H 6450 4750 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm" H 5300 1900 50  0001 R CNN
+F 2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm" H 5300 1900 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00090510.pdf" H 5900 3300 50  0001 C CNN
 	1    5900 3300
 	1    0    0    -1  
