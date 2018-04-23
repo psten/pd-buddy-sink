@@ -1,91 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:74xgxx
-LIBS:ac-dc
-LIBS:actel
-LIBS:allegro
-LIBS:Altera
-LIBS:analog_devices
-LIBS:battery_management
-LIBS:bbd
-LIBS:brooktre
-LIBS:cmos_ieee
-LIBS:dc-dc
-LIBS:diode
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:ftdi
-LIBS:gennum
-LIBS:hc11
-LIBS:ir
-LIBS:Lattice
-LIBS:maxim
-LIBS:mechanical
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic32mcu
-LIBS:motor_drivers
-LIBS:motors
-LIBS:msp430
-LIBS:nordicsemi
-LIBS:nxp_armmcu
-LIBS:onsemi
-LIBS:Oscillators
-LIBS:powerint
-LIBS:Power_Management
-LIBS:pspice
-LIBS:references
-LIBS:relays
-LIBS:rfcom
-LIBS:sensors
-LIBS:silabs
-LIBS:stm32
-LIBS:stm8
-LIBS:supertex
-LIBS:switches
-LIBS:transf
-LIBS:ttl_ieee
-LIBS:video
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:zetex
-LIBS:Zilog
-LIBS:pd-buddy
-LIBS:graphic_symbols
+EESchema Schematic File Version 4
 LIBS:pd-buddy-sink-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -100,99 +15,22 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	5450 3400 5450 3600
+	5450 3400 5450 3500
 Connection ~ 6050 4000
 Wire Wire Line
 	5450 3900 5450 4000
 Wire Wire Line
-	5450 4000 6650 4000
+	5450 4000 6050 4000
 Wire Wire Line
 	6650 4000 6650 3900
 Wire Wire Line
-	6650 3400 6650 3600
-$Comp
-L C C2
-U 1 1 588FA3E5
-P 6650 3750
-F 0 "C2" H 6675 3850 50  0000 L CNN
-F 1 "2.2μF" H 6675 3650 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6688 3600 50  0001 C CNN
-F 3 "" H 6650 3750 50  0000 C CNN
-	1    6650 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C1
-U 1 1 588FA3EC
-P 5450 3750
-F 0 "C1" H 5475 3850 50  0000 L CNN
-F 1 "1.0μF 25V" H 5475 3650 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 5488 3600 50  0001 C CNN
-F 3 "" H 5450 3750 50  0000 C CNN
-	1    5450 3750
-	1    0    0    -1  
-$EndComp
+	6650 3400 6650 3500
 Wire Wire Line
 	6050 3800 6050 4000
 Wire Wire Line
 	6350 3500 6650 3500
 Wire Wire Line
 	5450 3500 5750 3500
-$Comp
-L GND #PWR03
-U 1 1 588FA3F6
-P 6050 4000
-F 0 "#PWR03" H 6050 3750 50  0001 C CNN
-F 1 "GND" H 6050 3850 50  0000 C CNN
-F 2 "" H 6050 4000 50  0000 C CNN
-F 3 "" H 6050 4000 50  0000 C CNN
-	1    6050 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR04
-U 1 1 588FA3FC
-P 6650 3400
-F 0 "#PWR04" H 6650 3250 50  0001 C CNN
-F 1 "+3.3V" H 6650 3540 50  0000 C CNN
-F 2 "" H 6650 3400 50  0000 C CNN
-F 3 "" H 6650 3400 50  0000 C CNN
-	1    6650 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR05
-U 1 1 58FBCEDB
-P 4500 3900
-F 0 "#PWR05" H 4500 3650 50  0001 C CNN
-F 1 "GND" H 4500 3750 50  0000 C CNN
-F 2 "" H 4500 3900 50  0000 C CNN
-F 3 "" H 4500 3900 50  0000 C CNN
-	1    4500 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Test_Point TP1
-U 1 1 58FBCF4C
-P 4600 3600
-F 0 "TP1" H 4600 3900 50  0000 C BNN
-F 1 "VBUS" H 4600 3850 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4600 3600 50  0001 C CNN
-F 3 "" H 4600 3600 50  0001 C CNN
-	1    4600 3600
-	0    1    1    0   
-$EndComp
-$Comp
-L Test_Point TP2
-U 1 1 58FBD023
-P 4600 3800
-F 0 "TP2" H 4600 4100 50  0000 C BNN
-F 1 "GND" H 4600 4050 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4600 3800 50  0001 C CNN
-F 3 "" H 4600 3800 50  0001 C CNN
-	1    4600 3800
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4600 3600 4500 3600
 Wire Wire Line
@@ -201,39 +39,122 @@ Wire Wire Line
 	4600 3800 4500 3800
 Wire Wire Line
 	4500 3800 4500 3900
+Connection ~ 5450 3500
+Connection ~ 6650 3500
+Wire Wire Line
+	6050 4000 6650 4000
+Wire Wire Line
+	5450 3500 5450 3600
+Wire Wire Line
+	6650 3500 6650 3600
 $Comp
-L VBUS #PWR06
-U 1 1 592B5581
-P 5450 3400
-F 0 "#PWR06" H 5450 3250 50  0001 C CNN
-F 1 "VBUS" H 5450 3550 50  0000 C CNN
-F 2 "" H 5450 3400 50  0001 C CNN
-F 3 "" H 5450 3400 50  0001 C CNN
-	1    5450 3400
+L Connector:Test_Point TP1
+U 1 1 5A9A03D6
+P 4600 3600
+F 0 "TP1" V 4554 3788 50  0000 L CNN
+F 1 "VBUS" V 4645 3788 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4800 3600 50  0001 C CNN
+F 3 "~" H 4800 3600 50  0001 C CNN
+	1    4600 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Test_Point TP2
+U 1 1 5A9A08D7
+P 4600 3800
+F 0 "TP2" V 4554 3987 50  0000 L CNN
+F 1 "GND" V 4645 3987 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4800 3800 50  0001 C CNN
+F 3 "~" H 4800 3800 50  0001 C CNN
+	1    4600 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5A9A0AA0
+P 5450 3750
+F 0 "C1" H 5565 3796 50  0000 L CNN
+F 1 "1.0μF 25V" H 5565 3705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5488 3600 50  0001 C CNN
+F 3 "~" H 5450 3750 50  0001 C CNN
+	1    5450 3750
 	1    0    0    -1  
 $EndComp
 $Comp
-L VBUS #PWR07
-U 1 1 592B55C7
+L Device:C C2
+U 1 1 5A9A0FC3
+P 6650 3750
+F 0 "C2" H 6765 3796 50  0000 L CNN
+F 1 "2.2μF" H 6765 3705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6688 3600 50  0001 C CNN
+F 3 "~" H 6650 3750 50  0001 C CNN
+	1    6650 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS #PWR0103
+U 1 1 5A9A116F
 P 4500 3500
-F 0 "#PWR07" H 4500 3350 50  0001 C CNN
-F 1 "VBUS" H 4500 3650 50  0000 C CNN
+F 0 "#PWR0103" H 4500 3350 50  0001 C CNN
+F 1 "VBUS" H 4515 3673 50  0000 C CNN
 F 2 "" H 4500 3500 50  0001 C CNN
 F 3 "" H 4500 3500 50  0001 C CNN
 	1    4500 3500
 	1    0    0    -1  
 $EndComp
 $Comp
-L AP2204R-3.3 U1
-U 1 1 5961518D
+L power:VBUS #PWR0104
+U 1 1 5A9A11B0
+P 5450 3400
+F 0 "#PWR0104" H 5450 3250 50  0001 C CNN
+F 1 "VBUS" H 5465 3573 50  0000 C CNN
+F 2 "" H 5450 3400 50  0001 C CNN
+F 3 "" H 5450 3400 50  0001 C CNN
+	1    5450 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5A9A124A
+P 4500 3900
+F 0 "#PWR0105" H 4500 3650 50  0001 C CNN
+F 1 "GND" H 4505 3727 50  0000 C CNN
+F 2 "" H 4500 3900 50  0001 C CNN
+F 3 "" H 4500 3900 50  0001 C CNN
+	1    4500 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5A9A1285
+P 6050 4000
+F 0 "#PWR0106" H 6050 3750 50  0001 C CNN
+F 1 "GND" H 6055 3827 50  0000 C CNN
+F 2 "" H 6050 4000 50  0001 C CNN
+F 3 "" H 6050 4000 50  0001 C CNN
+	1    6050 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0107
+U 1 1 5A9A1474
+P 6650 3400
+F 0 "#PWR0107" H 6650 3250 50  0001 C CNN
+F 1 "+3V3" H 6665 3573 50  0000 C CNN
+F 2 "" H 6650 3400 50  0001 C CNN
+F 3 "" H 6650 3400 50  0001 C CNN
+	1    6650 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:AP2204R-3.3 U1
+U 1 1 5A9A1618
 P 6050 3500
-F 0 "U1" H 5850 3625 50  0000 L CNN
-F 1 "AP2204R-3.3" H 6050 3625 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-89-3" H 6050 3725 50  0001 C CNN
-F 3 "" H 6050 3500 50  0001 C CNN
+F 0 "U1" H 6050 3742 50  0000 C CNN
+F 1 "AP2204R-3.3" H 6050 3651 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-89-3" H 6050 3725 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP2204.pdf" H 6050 3500 50  0001 C CNN
 	1    6050 3500
 	1    0    0    -1  
 $EndComp
-Connection ~ 5450 3500
-Connection ~ 6650 3500
 $EndSCHEMATC

@@ -1,91 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:74xgxx
-LIBS:ac-dc
-LIBS:actel
-LIBS:allegro
-LIBS:Altera
-LIBS:analog_devices
-LIBS:battery_management
-LIBS:bbd
-LIBS:brooktre
-LIBS:cmos_ieee
-LIBS:dc-dc
-LIBS:diode
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:ftdi
-LIBS:gennum
-LIBS:hc11
-LIBS:ir
-LIBS:Lattice
-LIBS:maxim
-LIBS:mechanical
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic32mcu
-LIBS:motor_drivers
-LIBS:motors
-LIBS:msp430
-LIBS:nordicsemi
-LIBS:nxp_armmcu
-LIBS:onsemi
-LIBS:Oscillators
-LIBS:powerint
-LIBS:Power_Management
-LIBS:pspice
-LIBS:references
-LIBS:relays
-LIBS:rfcom
-LIBS:sensors
-LIBS:silabs
-LIBS:stm32
-LIBS:stm8
-LIBS:supertex
-LIBS:switches
-LIBS:transf
-LIBS:ttl_ieee
-LIBS:video
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:zetex
-LIBS:Zilog
-LIBS:pd-buddy
-LIBS:graphic_symbols
+EESchema Schematic File Version 4
 LIBS:pd-buddy-sink-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -182,47 +97,80 @@ F4 "D+" B R 3200 3100 60
 F5 "D-" B R 3200 3200 60 
 $EndSheet
 $Comp
-L Mounting_Hole_PAD MK1
-U 1 1 5892BB4F
-P 4050 5700
-F 0 "MK1" H 4050 5950 50  0000 C CNN
-F 1 "M3" H 4050 5875 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 4050 5700 60  0001 C CNN
-F 3 "" H 4050 5700 60  0001 C CNN
-	1    4050 5700
+L Mechanical:Mounting_Hole_PAD MK1
+U 1 1 5A9A1CB5
+P 3950 5700
+F 0 "MK1" H 4050 5751 50  0000 L CNN
+F 1 "M3" H 4050 5660 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3950 5700 50  0001 C CNN
+F 3 "" H 3950 5700 50  0001 C CNN
+	1    3950 5700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mounting_Hole_PAD MK2
-U 1 1 5892BC07
+L power:GND #PWR0101
+U 1 1 5A9A1DD0
+P 3950 5800
+F 0 "#PWR0101" H 3950 5550 50  0001 C CNN
+F 1 "GND" H 3955 5627 50  0000 C CNN
+F 2 "" H 3950 5800 50  0001 C CNN
+F 3 "" H 3950 5800 50  0001 C CNN
+	1    3950 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Mounting_Hole_PAD MK2
+U 1 1 5A9A1FE2
 P 4350 5700
-F 0 "MK2" H 4350 5950 50  0000 C CNN
-F 1 "M3" H 4350 5875 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 4350 5700 60  0001 C CNN
-F 3 "" H 4350 5700 60  0001 C CNN
+F 0 "MK2" H 4450 5751 50  0000 L CNN
+F 1 "M3" H 4450 5660 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 4350 5700 50  0001 C CNN
+F 3 "" H 4350 5700 50  0001 C CNN
 	1    4350 5700
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
-U 1 1 5892BCB7
+L power:GND #PWR0102
+U 1 1 5A9A1FE8
 P 4350 5800
-F 0 "#PWR01" H 4350 5550 50  0001 C CNN
-F 1 "GND" H 4350 5650 50  0000 C CNN
-F 2 "" H 4350 5800 50  0000 C CNN
-F 3 "" H 4350 5800 50  0000 C CNN
+F 0 "#PWR0102" H 4350 5550 50  0001 C CNN
+F 1 "GND" H 4355 5627 50  0000 C CNN
+F 2 "" H 4350 5800 50  0001 C CNN
+F 3 "" H 4350 5800 50  0001 C CNN
 	1    4350 5800
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
-U 1 1 5892BD2F
-P 4050 5800
-F 0 "#PWR02" H 4050 5550 50  0001 C CNN
-F 1 "GND" H 4050 5650 50  0000 C CNN
-F 2 "" H 4050 5800 50  0000 C CNN
-F 3 "" H 4050 5800 50  0000 C CNN
-	1    4050 5800
+L Mechanical:Mounting_Hole F1
+U 1 1 5A9D531F
+P 5400 5700
+F 0 "F1" H 5500 5746 50  0000 L CNN
+F 1 "Fiducial" H 5500 5655 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Dia_2mm_Outer" H 5400 5700 50  0001 C CNN
+F 3 "" H 5400 5700 50  0001 C CNN
+	1    5400 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Mounting_Hole F2
+U 1 1 5A9D540E
+P 5400 6000
+F 0 "F2" H 5500 6046 50  0000 L CNN
+F 1 "Fiducial" H 5500 5955 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Dia_2mm_Outer" H 5400 6000 50  0001 C CNN
+F 3 "" H 5400 6000 50  0001 C CNN
+	1    5400 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Mounting_Hole F3
+U 1 1 5A9D544C
+P 6000 6000
+F 0 "F3" H 6100 6046 50  0000 L CNN
+F 1 "Fiducial" H 6100 5955 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Dia_2mm_Outer" H 6000 6000 50  0001 C CNN
+F 3 "" H 6000 6000 50  0001 C CNN
+	1    6000 6000
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
